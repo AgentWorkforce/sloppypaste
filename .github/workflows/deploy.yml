@@ -37,4 +37,4 @@ jobs:
         run: npm ci
 
       - name: Deploy with SST
-        run: npx sst deploy --stage production
+        run: npx sst deploy --stage production --print-logs
