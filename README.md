@@ -12,7 +12,8 @@ A small single-page site explaining "sloppypasting": pasting raw AI output into 
 
 1. Install dependencies with `npm install`.
 2. Authenticate SST against your Cloudflare account.
-3. Run `npm run dev`.
+3. Optionally set `POSTHOG_KEY` and `POSTHOG_HOST` for analytics.
+4. Run `npm run dev`.
 
 ## Deploy
 
@@ -30,5 +31,7 @@ Add these repository secrets before using it:
 
 - `CLOUDFLARE_API_TOKEN`
 - `CLOUDFLARE_DEFAULT_ACCOUNT_ID`
+- `POSTHOG_KEY` (optional)
+- `POSTHOG_HOST` (optional, defaults to `https://us.i.posthog.com`)
 
 The token needs Cloudflare permissions that can deploy Workers and edit the DNS zone for `sloppypaste.com`.
