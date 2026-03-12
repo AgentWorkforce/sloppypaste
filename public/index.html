@@ -56,11 +56,11 @@
         <hr class="hero-rule" />
         <ol class="hero-definitions">
           <li>
-            Copy-pasting raw LLM output into a conversation without reading it,
-            editing it, or summarizing the relevant part.
+            Pasting raw AI output into a conversation without reading it,
+            editing it, or pulling out the useful part.
           </li>
           <li>
-            A very modern way to make someone else do the work for you.
+            Making someone else do the work of figuring out what you meant.
           </li>
         </ol>
         <p class="lede">
@@ -68,111 +68,57 @@
           heads-up because the mistake is common, understandable, and easy to
           fix.
         </p>
-        <p class="hero-note">Read it. Trim it. Point at the good part.</p>
-      </section>
-
-      <section class="panel definition">
-        <p class="section-label">Definition</p>
-        <h2>Sloppypaste <span>(noun / verb)</span></h2>
-        <p class="definition-copy">
-          Copy-pasting raw LLM output into a conversation without reading it,
-          editing it, or summarizing the relevant part.
-        </p>
-        <p class="definition-copy">
-          The problem is not using AI. The problem is quietly handing the work
-          of finding the signal to the person on the other side.
+        <p class="hero-note">
+          Read it <em>before</em> you share it. Don't be a slop cannon.
         </p>
       </section>
 
-      <section class="panel reasons">
-        <p class="section-label">Why it's frustrating</p>
-        <h2>Sloppypastes are rarely malicious. They are just exhausting.</h2>
-        <ul>
-          <li>They arrive as a wall of confident, generic filler.</li>
-          <li>The real point is often hiding somewhere in paragraph six.</li>
-          <li>No one says which sentence actually matters.</li>
-          <li>The recipient ends up doing the editing job.</li>
-        </ul>
-      </section>
-
-      <section class="panel examples">
-        <div class="examples-header">
-          <div>
-            <p class="section-label">Example</p>
-            <h2>The same idea, two very different reading experiences.</h2>
-          </div>
-          <p class="comparison-note">
-            The issue is not the AI. It is the handoff.
-          </p>
-        </div>
-
-        <div class="comparison-grid">
-          <article class="example-card sloppy">
-            <p class="card-label">Sloppypaste</p>
-            <div class="message-block">
-              <p>
-                Certainly! Here are several considerations to keep in mind when
-                evaluating possible caching strategies for your application,
-                including performance optimization, implementation tradeoffs,
-                maintainability concerns, and future scalability needs...
-              </p>
-              <p>
-                In conclusion, there are many possible approaches depending on
-                your exact architecture, traffic profile, data consistency
-                requirements, and long-term business goals.
-              </p>
-            </div>
-          </article>
-
-          <article class="example-card better">
-            <p class="card-label">Better message</p>
-            <div class="message-block">
-              <p>ChatGPT suggested using Redis caching for repeated lookups.</p>
-              <p>This part seemed relevant:</p>
-              <blockquote>
-                Cache the user profile for five minutes and invalidate on write.
-              </blockquote>
-              <p>Do you think that would work here?</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="panel rulebook">
-        <p class="section-label">The simple rule</p>
-        <h2>Before you paste AI output:</h2>
-        <ol>
-          <li>Read it.</li>
-          <li>Delete most of it.</li>
-          <li>Highlight the useful part.</li>
-          <li>Explain why you're sharing it.</li>
-        </ol>
-        <p class="rulebook-note">
-          If you skip those steps, you might be sloppypasting.
+      <section class="panel cta">
+        <p class="section-label">Alternative approach</p>
+        <h2>Avoid sloppy pastes altogether.</h2>
+        <p class="cta-copy">
+          If the LLMs need to compare notes, let them communicate directly and
+          hand you the summary. Fewer giant transcripts. More signal. Less
+          paste-shaped chaos.
         </p>
-      </section>
-
-      <section class="panel closing">
-        <p class="section-label">Friendly closing note</p>
-        <h2>AI is fine. Sharing ideas is fine. Editing still matters.</h2>
-        <p>
-          Use AI all you want. Ask it for drafts, lists, options, code, and
-          weird little thought starters. Just do not make other people read the
-          whole output for you.
-        </p>
-        <p>
-          The polite move is simple: take ninety seconds, keep the good part,
-          and send that instead.
-        </p>
+        <a
+          class="cta-link"
+          href="https://agent-relay.com?utm_source=sloppypaste.com&utm_medium=referral&utm_campaign=agent_relay_cta&utm_content=avoid_sloppypaste"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Try Agent Relay
+        </a>
       </section>
     </main>
 
     <footer class="footer">
       <hr class="footer-rule" />
-      <p>
-        Someone sent you this link because you may have just sloppypasted them.
-      </p>
-      <p>It happens to the best of us.</p>
+      <div class="footer-brand">
+        <div class="footer-copy">
+          <p>
+            Someone sent you this link because you may have just sloppypasted
+            them.
+          </p>
+          <p>It happens to the best of us.</p>
+        </div>
+        <div class="footer-branding">
+          <p class="footer-brand-label">Brought to you by</p>
+          <a
+            class="footer-logo-link"
+            href="https://agent-relay.com?utm_source=sloppypaste.com&utm_medium=referral&utm_campaign=footer_logo&utm_content=footer_brand"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Agent Relay"
+          >
+            <img
+              class="footer-logo"
+              src="/agent-relay-logo-black.svg"
+              alt="Agent Relay"
+            />
+          </a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
