@@ -1,0 +1,14 @@
+{
+  "name": "sloppypaste",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "sst dev",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "devDependencies": {
+    "sst": "4.2.7"
+  }
+}

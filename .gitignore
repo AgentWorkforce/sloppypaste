@@ -1,0 +1,8 @@
+node_modules
+.sst
+.wrangler
+.DS_Store
+.env
+.env.*
+!.env.example
+.npm-cache
