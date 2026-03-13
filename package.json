@@ -4,11 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build:og": "node scripts/render-og.mjs",
     "dev": "sst dev",
     "deploy": "sst deploy",
     "remove": "sst remove"
   },
   "devDependencies": {
+    "sharp": "^0.34.5",
     "sst": "4.2.7"
   }
 }
